@@ -519,6 +519,7 @@
   text-shadow: 0px 0px 0px rgba(0,0,0,0);
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
   font-size: 0.75rem;
+  font-weight: 700;
   margin: 0;
 }
 
@@ -527,7 +528,7 @@
   text-shadow: 0px 0px 0px rgba(0,0,0,0);
   transition-duration: 0.5s;
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
-  font-size: 0.375rem;
+  font-size: 0.625rem;
   margin: 20px 0 0;
 }
 
@@ -574,7 +575,7 @@
   text-shadow: 0px 0px 0px rgba(0,0,0,0);
   transition-duration: 0.5s;
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
-  font-size: 0.375rem;
+  font-size: 0.625rem;
   margin: 20px 0 0;
 }
 
@@ -621,7 +622,7 @@
   text-shadow: 0px 0px 0px rgba(0,0,0,0);
   transition-duration: 0.5s;
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
-  font-size: 0.375rem;
+  font-size: 0.625rem;
   margin: 20px 0 0;
 }
 
@@ -695,7 +696,7 @@
   }
 
   .u-section-4 .u-text-2 {
-    font-size: 1.5rem;
+    font-size: 0.75rem;
   }
 
   .u-section-4 .u-text-3 {
@@ -707,10 +708,6 @@
     padding-bottom: 30px;
   }
 
-  .u-section-4 .u-text-4 {
-    font-size: 1.5rem;
-  }
-
   .u-section-4 .u-text-5 {
     font-size: 0.875rem;
   }
@@ -718,10 +715,6 @@
   .u-section-4 .u-container-layout-3 {
     padding-top: 30px;
     padding-bottom: 30px;
-  }
-
-  .u-section-4 .u-text-6 {
-    font-size: 1.5rem;
   }
 
   .u-section-4 .u-text-7 {
@@ -802,16 +795,16 @@
 
 @media (max-width: 575px) {
   .u-section-4 .u-sheet-1 {
-    min-height: 369px;
+    min-height: 473px;
   }
 
   .u-section-4 .u-text-1 {
-    margin-top: 18px;
+    margin-top: 13px;
   }
 
   .u-section-4 .u-list-1 {
-    margin-top: 22px;
-    margin-bottom: 29px;
+    margin-top: 9px;
+    margin-bottom: 0;
   }
 
   .u-section-4 .u-repeater-1 {
@@ -825,7 +818,7 @@
   }
 
   .u-section-4 .u-text-3 {
-    font-size: 0.375rem;
+    font-size: 0.625rem;
   }
 
   .u-section-4 .u-btn-1 {
@@ -837,7 +830,7 @@
   }
 
   .u-section-4 .u-text-5 {
-    font-size: 0.375rem;
+    font-size: 0.625rem;
   }
 
   .u-section-4 .u-btn-2 {
@@ -849,7 +842,7 @@
   }
 
   .u-section-4 .u-text-7 {
-    font-size: 0.375rem;
+    font-size: 0.625rem;
   }
 
   .u-section-4 .u-btn-3 {
@@ -1131,16 +1124,13 @@
 .u-section-5 .u-text-2 {
   line-height: 1.8;
   width: 680px;
+  font-size: 1.125rem;
   margin: 20px auto 40px;
 }
 
 @media (max-width: 1199px) {
   .u-section-5 .u-text-1 {
     font-size: 3rem;
-  }
-
-  .u-section-5 .u-text-2 {
-    font-size: 1.125rem;
   }
 }
 
